@@ -413,27 +413,6 @@ Generated outputs are written to the `output/` directory:
 -   Incident Report (.json)
 -   Incident Report (.pdf)
 
-------------------------------------------------------------------------
-
-## Screenshots
-
-Create a folder named `screenshots/` and add:
-
-    screenshots/
-    ├── terminal.png
-    ├── html-report.png
-    ├── pdf-report.png
-    └── streamlit-ui.png
-
-Then reference them here:
-
-``` markdown
-![Terminal](screenshots/terminal.png)
-
-![HTML Report](screenshots/html-report.png)
-
-![PDF Report](screenshots/pdf-report.png)
-```
 
 ------------------------------------------------------------------------
 
