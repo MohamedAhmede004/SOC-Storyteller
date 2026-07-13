@@ -447,5 +447,3 @@ GitHub: https://github.com/mohamedahmede004
 
 > For privacy, contact information is intentionally omitted from the
 > public repository.
-#   S O C - S t o r y t e l l e r  
- 
