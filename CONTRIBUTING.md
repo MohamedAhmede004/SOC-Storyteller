@@ -30,7 +30,7 @@ Contributions that *are* welcome:
 ## Development Setup
 
 ```bash
-git clone https://github.com/your-org/SOC-Storyteller.git
+git clone https://github.com/mohamedahmede004/SOC-Storyteller.git
 cd SOC-Storyteller
 python3 -m venv .venv
 source .venv/bin/activate
@@ -116,3 +116,15 @@ Open an issue with:
 
 Be respectful, assume good faith, and keep discussion focused on the
 technical merits of a change.
+---
+
+## Maintainer
+
+**Mohamed Ahmed Ibrahim**
+
+SOC Analyst | Blue Team | Detection Engineering
+
+GitHub:
+https://github.com/mohamedahmede004
+
+Thank you for contributing to SOC Storyteller!
