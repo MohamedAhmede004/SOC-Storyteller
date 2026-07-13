@@ -1,0 +1,16 @@
+# SOC Storyteller -- dependencies
+# All dependencies are free / open-source (MIT, Apache-2.0, or BSD licensed).
+
+# --- Core: EVTX parsing ---
+python-evtx==0.8.1        # Pure-Python parser for the binary Windows .evtx format
+lxml==5.3.0                # Fast XML handling (transitive requirement of python-evtx tooling)
+
+# --- PDF report generation ---
+reportlab==4.4.10          # Pure-Python-friendly PDF generation (BSD-licensed)
+
+# --- UI (optional, only needed to run `ui/streamlit_app.py`) ---
+streamlit==1.40.2
+
+# --- Testing ---
+pytest==8.3.4
+pytest-cov==6.0.0

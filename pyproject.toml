@@ -1,0 +1,27 @@
+[tool.pytest.ini_options]
+minversion = "7.0"
+testpaths = ["tests"]
+python_files = ["test_*.py"]
+addopts = "-ra --strict-markers"
+
+[tool.coverage.run]
+branch = true
+source = ["parser", "detections", "correlation", "risk_engine", "timeline", "reports", "mitre", "utils", "main"]
+omit = ["*/__init__.py", "ui/*"]
+
+[tool.coverage.report]
+precision = 1
+skip_empty = true
+exclude_lines = [
+    "pragma: no cover",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+    "except ImportError as exc:  # pragma: no cover",
+]
+
+[project]
+name = "soc-storyteller"
+version = "1.0.0"
+description = "Turning Windows Event Logs into Attack Narratives"
+requires-python = ">=3.12"
+license = { text = "MIT" }

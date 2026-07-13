@@ -1,0 +1,41 @@
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# --- Virtual environments ---
+.venv/
+venv/
+env/
+
+# --- Testing / coverage ---
+.pytest_cache/
+.coverage
+.coverage.*
+htmlcov/
+coverage.xml
+*.cover
+
+# --- Generated report output (not source) ---
+output/
+
+# --- Logs ---
+*.log
+
+# --- Editors / OS ---
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# --- Real EVTX samples that may contain sensitive data ---
+# (the bundled synthetic sample_logs/attack_scenario.xml is tracked;
+#  real .evtx exports dropped into sample_logs/ for local testing are not)
+sample_logs/*.evtx
